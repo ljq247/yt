@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+    <context:annotation-config></context:annotation-config> 
+	<context:component-scan base-package="annotation.*" >
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+	</context:component-scan>
+	
+<!--      <context:annotation-config>是开启扫描标签,下面
+	<context:component-scan base-package="a.**.*.*">才会起到作用
+ 1.base-package="annotation.*"  深度搜索annotation的所有包
+ 2.base-package="a*"     深度走索a开头的所有包和子包
+ 3.base-package="annotation.*.g" 搜索annotation的的第三级子包/
+ 4.base-package="annotation.**.g" 深度搜索annotation的子包,以g结尾/
+ 5.  忽略扫描包   
+ 	<context:annotation-config></context:annotation-config> 
+	<context:component-scan base-package="annotation.*" >
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+	</context:component-scan>
+-->
+
+
+
+</beans>

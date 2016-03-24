@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+	<context:annotation-config />
+	<context:component-scan base-package="aop.*"/>
+<!--      可以事先声明一个bean  ,或者在LoginInterceptor 里面家@service注解,注册一个bean -->
+<!-- 	<bean id="logInterceptor" class="aop.aspeck.LogInterceptor" /> -->
+	<aop:config>		
+		<aop:aspect id="logAspect" ref="logInterceptor">
+			<aop:before method="before" pointcut="execution(  * aop..service..save*(..)  )" />
+			<aop:around method="around" pointcut="execution( * aop.service.UserService.around(..))"/>
+		</aop:aspect>
+	</aop:config>
+<!--说明 :   1. aop..save*(..)   深度拦截所有以aop开头的包.里面所有的类的.方法是save开头的
+			2. aop..User*.save*(..) 深度拦截以aop开头并以包,并且类名是User开头,方法是save开头
+			3. * aop..service..save*(..) 深度拦截,以aop开头,中间出现过service包.的任何类的save*方法;
+  需要导入,一个
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+		</dependency>
+ -->
+</beans>

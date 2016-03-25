@@ -4,12 +4,8 @@ import java.util.Date;
 
 /**
  * 
- * <p>Title: User</p>
- * <p>Description:用户po </p>
- * <p>Company: www.itcast.com</p> 
- * @author	传智.燕青
- * @date	2015-4-22上午10:24:16
- * @version 1.0
+ * @author:小南风 2016年3月25日
+ *
  */
 public class User {
 	

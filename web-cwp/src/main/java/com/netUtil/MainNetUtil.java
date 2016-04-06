@@ -1,5 +1,4 @@
 package com.netUtil;
-
 import java.util.concurrent.TimeUnit;
 
 import org.apache.http.HttpEntity;
@@ -11,14 +10,14 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.util.EntityUtils;
 
 /**
- * ²âÊÔÖ÷·½·¨
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * 
  * @author Administrator
  *
  */
 public class MainNetUtil {
 	public static void main(String[] args)throws Exception  {
-		System.out.println( "ÄãºÃ");
+		System.out.println( "ï¿½ï¿½ï¿½");
 		
 		
         PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager();
@@ -32,7 +31,7 @@ public class MainNetUtil {
 		
 		// String requestURI =  "http://www.56.com/u90/v_NTMyMDI1MDM.html";
         String requestURI =  "http://www.fengyunlive.com/p/arts/local";
-         HttpGet request = new HttpGet(requestURI);  // ÇëÇóÒ»¸örequest url
+         HttpGet request = new HttpGet(requestURI);  // ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½request url
          
          
 
@@ -45,10 +44,10 @@ public class MainNetUtil {
 			             HttpEntity httpentity=  response.getEntity();
 			             String  htmlString=EntityUtils.toString(httpentity) ;			         
 			              
-			            System.out.println("»ñÈ¡±êÌâ:");
+			            System.out.println("ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½:");
 			           // System.out.println( getTitle(htmlString)  ); 
 			            
-			            System.out.println("»ñÈ¡ÄÚÈÝ:");
+			            System.out.println("ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½:");
 			          //  System.out.println( getLable(htmlString)  ); 
 			             System.out.println(htmlString);
 			         } finally {
@@ -72,5 +71,6 @@ public class MainNetUtil {
 	    int n3=s1.indexOf("</p>",n2);
 	   // System.out.println(n1+":"+n2+":"+n3);		    
 	     return s1.substring(n2+1, n3);
-}
+ 
+}   
 }

@@ -31,6 +31,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * This example demonstrates how to abort an HTTP method before its normal completion.
@@ -46,7 +47,8 @@ public class ClientAbortMethod {
             CloseableHttpResponse response = httpclient.execute(httpget);
             try {
                 System.out.println("----------------------------------------");
-                System.out.println(response.getStatusLine());
+                System.out.println("response.getStatusLine:"+response.getStatusLine());
+             //   System.out.println("AllHeaders:"+httpget.);
                 // Do not feel like reading the response body
                 // Call abort on the request object
                 httpget.abort();

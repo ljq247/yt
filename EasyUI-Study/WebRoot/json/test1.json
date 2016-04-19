@@ -1,0 +1,575 @@
+[{
+	"_id" : "236_1375176073063",
+	"cname" : "CCTV-3 综艺",
+	"online" : 8,
+	"imageUrl" : "http://img5sr5.m3ppcdn.kukuplay.com/data/236_1375176073063_1452175133991/snapshot-game.jpg",
+	"navType" : 302,
+	"channelTypes" : ["1410841099672_325"],
+	"program" : {
+		"titleup" : "综艺喜乐汇"
+	},
+	"cur_sid" : "236_1375176073063_1452175133991",
+	"uid" : "236",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/236_1375176073063.htm"
+}, {
+	"_id" : "5_1380889629573",
+	"cname" : "河南公共频道",
+	"online" : 8,
+	"imageUrl" : "http://img7shaox0.m1ppcdn.kukuplay.com/data/5_1380889629573_1380889629573506/snapshot-game.jpg",
+	"navType" : 334,
+	"channelTypes" : ["1410840974548_488_1411013604154_539",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "百姓"
+	},
+	"cur_sid" : "5_1380889629573_1380889629573506",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1380889629573.htm"
+}, {
+	"_id" : "265_1345608082409",
+	"cname" : "南方卫视",
+	"online" : 7,
+	"imageUrl" : "http://img9sr2.m3ppcdn.kukuplay.com/data/265_1345608082409_1418204790704/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"cur_sid" : "265_1345608082409_1418470825155",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1345608082409.htm"
+}, {
+	"_id" : "0000000001_1342935092275",
+	"cname" : "浙江卫视",
+	"online" : 7,
+	"imageUrl" : "http://img3dy0.m4ppcdn.kukuplay.com/data/0000000001_1342935092275_1408696192554/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "豪门恩怨 17"
+	},
+	"cur_sid" : "0000000001_1342935092275_1408696192554",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/0000000001_1342935092275.htm"
+}, {
+	"_id" : "5_1356080622751",
+	"cname" : "安徽公共频道",
+	"online" : 7,
+	"imageUrl" : "http://img5sr3.m3ppcdn.kukuplay.com/data/5_1356080622751_1434541582886/snapshot-game.jpg",
+	"navType" : 319,
+	"channelTypes" : ["1410840974548_488_1411013585794_70", "1410840974548_488"],
+	"program" : {
+		"titleup" : "新闻第一线"
+	},
+	"cur_sid" : "5_1356080622751_1434541582886",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1356080622751.htm"
+}, {
+	"_id" : "0000000001_1342936939535",
+	"cname" : "深圳卫视",
+	"online" : 7,
+	"imageUrl" : "http://img6sr2.m3ppcdn.kukuplay.com/data/0000000001_1342936939535_1453202019819/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "摩尔庄园第三季"
+	},
+	"cur_sid" : "0000000001_1342936939535_1453202019819",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/0000000001_1342936939535.htm"
+}, {
+	"_id" : "236_1375169145779",
+	"cname" : "CCTV-11 戏曲",
+	"online" : 6,
+	"imageUrl" : "http://img9bj0.m4ppcdn.kukuplay.com/data/236_1375169145779_1419819491385/snapshot-game.jpg",
+	"navType" : 302,
+	"channelTypes" : ["1410841099672_325"],
+	"program" : {
+		"titleup" : "名段欣赏"
+	},
+	"cur_sid" : "236_1375169145779_1419819491385",
+	"uid" : "236",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/236_1375169145779.htm"
+}, {
+	"_id" : "265_1343545941346",
+	"cname" : "河北卫视",
+	"online" : 6,
+	"imageUrl" : "http://img4sr5.m3ppcdn.kukuplay.com/data/265_1343545941346_1458276539077/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "老公的春天 5"
+	},
+	"cur_sid" : "265_1343545941346_1458276539077",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1343545941346.htm"
+}, {
+	"_id" : "265_1344618317431",
+	"cname" : "陕西卫视",
+	"online" : 6,
+	"imageUrl" : "http://img9bj0.m4ppcdn.kukuplay.com/data/265_1344618317431_1413973825288/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "苍狼 30"
+	},
+	"cur_sid" : "265_1344618317431_1413973825288",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1344618317431.htm"
+}, {
+	"_id" : "0000000001_1342935971991",
+	"cname" : "东南卫视",
+	"online" : 6,
+	"imageUrl" : "http://img4bj0.m4ppcdn.kukuplay.com/data/0000000001_1342935971991_1413957702878/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "飞虎队"
+	},
+	"cur_sid" : "0000000001_1342935971991_1413957702878",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/0000000001_1342935971991.htm"
+}, {
+	"_id" : "5_1380889599638",
+	"cname" : "湖北经视频道",
+	"online" : 6,
+	"imageUrl" : "http://img9sr3.m3ppcdn.kukuplay.com/data/5_1380889599638_1410326727862/snapshot-game.jpg",
+	"navType" : 326,
+	"channelTypes" : ["1410840974548_488_1411013604705_394",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "经视直播"
+	},
+	"cur_sid" : "5_1380889599638_1410326727862",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1380889599638.htm"
+}, {
+	"_id" : "0000000001_1342935706118",
+	"cname" : "天津卫视",
+	"online" : 6,
+	"imageUrl" : "http://img5sy0.m0ppcdn.kukuplay.com/data/0000000001_1342935706118_1458276336413/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "利箭纵横 11"
+	},
+	"cur_sid" : "0000000001_1342935706118_1415419459937",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/0000000001_1342935706118.htm"
+}, {
+	"_id" : "5_1408002090560",
+	"cname" : "上海家庭理财",
+	"online" : 6,
+	"imageUrl" : "http://img4shaox6.m1ppcdn.kukuplay.com/data/5_1408002090560_1408002090560330/snapshot-game.jpg",
+	"navType" : 304,
+	"channelTypes" : ["1410840974548_488_1411013501121_90", "1410840974548_488"],
+	"cur_sid" : "5_1408002090560_1408002090560330",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1408002090560.htm"
+}, {
+	"_id" : "5_1368267517637",
+	"cname" : "南方经济频道",
+	"online" : 6,
+	"imageUrl" : "http://img0sr5.m3ppcdn.kukuplay.com/data/5_1368267517637_1387346211056/snapshot-game.jpg",
+	"navType" : 315,
+	"channelTypes" : ["1410840974548_488_1411013549781_435",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "经视报告(重播)"
+	},
+	"cur_sid" : "5_1368267517637_1387346211056",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1368267517637.htm"
+}, {
+	"_id" : "5_1355972214548",
+	"cname" : "北京-10卡酷少儿",
+	"online" : 6,
+	"imageUrl" : "http://img5shaox2.m1ppcdn.kukuplay.com/data/5_1355972214548_1409804571294/snapshot-game.jpg",
+	"navType" : 303,
+	"channelTypes" : ["1410840974548_488_1411013483981_443",
+			"1419737237561_473", "1410840974548_488"],
+	"program" : {
+		"titleup" : "B猪猪侠之变身小英雄（25）"
+	},
+	"cur_sid" : "5_1355972214548_1409804571294",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1355972214548.htm"
+}, {
+	"_id" : "5_1408002209097",
+	"cname" : "广州竞赛频道",
+	"online" : 5,
+	"imageUrl" : "http://img4sr4.m3ppcdn.kukuplay.com/data/5_1408002209097_1408002209097230/snapshot-game.jpg",
+	"navType" : 350,
+	"channelTypes" : ["1410840974548_488_1411013504489_173",
+			"1410840974548_488"],
+	"cur_sid" : "5_1408002209097_1408002209097230",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1408002209097.htm"
+}, {
+	"_id" : "5_1359967066578",
+	"cname" : "北京纪实频道",
+	"online" : 5,
+	"imageUrl" : "http://img5sr2.m3ppcdn.kukuplay.com/data/5_1359967066578_1426565078963/snapshot-game.jpg",
+	"navType" : 303,
+	"channelTypes" : ["1410840974548_488_1411013483981_443",
+			"1410840974548_488"],
+	"cur_sid" : "5_1359967066578_1426565078963",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1359967066578.htm"
+}, {
+	"_id" : "265_1344618931160",
+	"cname" : "甘肃卫视",
+	"online" : 5,
+	"imageUrl" : "http://img0sy1.m0ppcdn.kukuplay.com/data/265_1344618931160_1409056785594/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "广告栏目-财富资讯"
+	},
+	"cur_sid" : "265_1344618931160_1409056785594",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1344618931160.htm"
+}, {
+	"_id" : "5_1380872451300",
+	"cname" : "广州影视频道",
+	"online" : 5,
+	"imageUrl" : "http://img5dy2.m4ppcdn.kukuplay.com/data/5_1380872451300_1406622667888/snapshot-game.jpg",
+	"navType" : 350,
+	"channelTypes" : ["1410840974548_488_1411013504489_173",
+			"1410841055704_127", "1410840974548_488"],
+	"cur_sid" : "5_1380872451300_1406622667888",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1380872451300.htm"
+}, {
+	"_id" : "5_1354509137679",
+	"cname" : "黑龙江新闻频道",
+	"online" : 5,
+	"imageUrl" : "http://img0sy2.m0ppcdn.kukuplay.com/data/5_1354509137679_1394193654104/snapshot-game.jpg",
+	"navType" : 316,
+	"channelTypes" : ["1410840974548_488_1411013605987_123",
+			"1410840974548_488"],
+	"cur_sid" : "5_1354509137679_1394193654104",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1354509137679.htm"
+}, {
+	"_id" : "265_1344618648713",
+	"cname" : "重庆卫视",
+	"online" : 4,
+	"imageUrl" : "http://img6sr2.m3ppcdn.kukuplay.com/data/265_1344618648713_1452232801406/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "喜羊羊与灰太狼之原始世界历险记"
+	},
+	"cur_sid" : "265_1344618648713_1452232801406",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1344618648713.htm"
+}, {
+	"_id" : "5_1356668367600",
+	"cname" : "北京-8青年频道",
+	"online" : 4,
+	"imageUrl" : "http://img2bj0.m4ppcdn.kukuplay.com/data/5_1356668367600_1440555932744/snapshot-game.jpg",
+	"navType" : 303,
+	"channelTypes" : ["1410840974548_488_1411013483981_443",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "76:勇敢的心47"
+	},
+	"cur_sid" : "5_1356668367600_1440555932744",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1356668367600.htm"
+}, {
+	"_id" : "5_1382412123604",
+	"cname" : "CIBN华视院线",
+	"online" : 4,
+	"imageUrl" : "http://img6sr3.m3ppcdn.kukuplay.com/data/5_1382412123604_1451210572911/snapshot-game.jpg",
+	"navType" : 355,
+	"channelTypes" : ["1410841055704_127"],
+	"program" : {
+		"titleup" : "重见天日"
+	},
+	"cur_sid" : "5_1382412123604_1451210572911",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1382412123604.htm"
+}, {
+	"_id" : "5_1355974076776",
+	"cname" : "上海星尚频道",
+	"online" : 4,
+	"imageUrl" : "http://img8dy6.m4ppcdn.kukuplay.com/data/5_1355974076776_1408111523136/snapshot-game.jpg",
+	"navType" : 304,
+	"channelTypes" : ["1410840974548_488_1411013501121_90", "1410840974548_488"],
+	"cur_sid" : "5_1355974076776_1408111523136",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1355974076776.htm"
+}, {
+	"_id" : "265_1344617846569",
+	"cname" : "云南卫视",
+	"online" : 4,
+	"imageUrl" : "http://img6shaox2.m1ppcdn.kukuplay.com/data/265_1344617846569_1453261778243/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "雪豹 19"
+	},
+	"cur_sid" : "265_1344617846569_1453261778243",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1344617846569.htm"
+}, {
+	"_id" : "0000000001_1342936114278",
+	"cname" : "四川卫视",
+	"online" : 4,
+	"imageUrl" : "http://img8bj0.m4ppcdn.kukuplay.com/data/0000000001_1342936114278_1439570959835/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "傻儿传奇"
+	},
+	"cur_sid" : "0000000001_1342936114278_1458286559781",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/0000000001_1342936114278.htm"
+}, {
+	"_id" : "265_1344618988477",
+	"cname" : "黑龙江卫视",
+	"online" : 4,
+	"imageUrl" : "http://img4bj0.m4ppcdn.kukuplay.com/data/265_1344618988477_1432627984182/snapshot-game.jpg",
+	"navType" : 301,
+	"channelTypes" : ["1410841076290_518"],
+	"program" : {
+		"titleup" : "西游记"
+	},
+	"cur_sid" : "265_1344618988477_1432627984182",
+	"uid" : "265",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/265_1344618988477.htm"
+}, {
+	"_id" : "5_1370764751513",
+	"cname" : "河北农民频道",
+	"online" : 4,
+	"imageUrl" : "http://img3sr2.m3ppcdn.kukuplay.com/data/5_1370764751513_1445574631093/snapshot-game.jpg",
+	"navType" : 321,
+	"channelTypes" : ["1410840974548_488_1411013603995_537",
+			"1410840974548_488"],
+	"cur_sid" : "5_1370764751513_1445574631093",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1370764751513.htm"
+}, {
+	"_id" : "5_1369460840566",
+	"cname" : "湖南公共频道",
+	"online" : 4,
+	"imageUrl" : "http://img7sr2.m3ppcdn.kukuplay.com/data/5_1369460840566_1380786180888/snapshot-game.jpg",
+	"navType" : 311,
+	"channelTypes" : ["1410840974548_488_1411013527145_167",
+			"1410840974548_488"],
+	"cur_sid" : "5_1369460840566_1444644290271",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1369460840566.htm"
+}, {
+	"_id" : "5_1355989858789",
+	"cname" : "上海外语频道",
+	"online" : 4,
+	"imageUrl" : "http://img3dy7.m4ppcdn.kukuplay.com/data/5_1355989858789_1408111563748/snapshot-game.jpg",
+	"navType" : 304,
+	"channelTypes" : ["1410840974548_488_1411013501121_90", "1410840974548_488"],
+	"cur_sid" : "5_1355989858789_1408111563748",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1355989858789.htm"
+}, {
+	"_id" : "5_1355987423004",
+	"cname" : "上海电视剧频道",
+	"online" : 4,
+	"imageUrl" : "http://img3dy5.m4ppcdn.kukuplay.com/data/5_1355987423004_1408111628400/snapshot-game.jpg",
+	"navType" : 304,
+	"channelTypes" : ["1410840974548_488_1411013501121_90",
+			"1410841055704_127", "1410840974548_488"],
+	"program" : {
+		"titleup" : "不可能完成的任务（11）"
+	},
+	"cur_sid" : "5_1355987423004_1408111628400",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1355987423004.htm"
+}, {
+	"_id" : "236_1357797547374",
+	"cname" : "CCTV-NEWS",
+	"online" : 3,
+	"imageUrl" : "http://img4sr2.m3ppcdn.kukuplay.com/data/236_1357797547374_1424273739982/snapshot-game.jpg",
+	"navType" : 302,
+	"channelTypes" : ["1410841099672_325", "1411013974063_723"],
+	"cur_sid" : "236_1357797547374_1424273739982",
+	"uid" : "236",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/236_1357797547374.htm"
+}, {
+	"_id" : "5_1355997239328",
+	"cname" : "北京-2文艺频道",
+	"online" : 3,
+	"imageUrl" : "http://img7bj0.m4ppcdn.kukuplay.com/data/5_1355997239328_1406527215520/snapshot-game.jpg",
+	"navType" : 303,
+	"channelTypes" : ["1410840974548_488_1411013483981_443",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "光荣绽放"
+	},
+	"cur_sid" : "5_1355997239328_1406527215520",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1355997239328.htm"
+}, {
+	"_id" : "5_1382412630274",
+	"cname" : "柳州科教频道",
+	"online" : 3,
+	"imageUrl" : "http://img2shaox0.m1ppcdn.kukuplay.com/data/5_1382412630274_1411638323711/snapshot-game.jpg",
+	"navType" : 335,
+	"channelTypes" : ["1410840974548_488_1411013603834_715",
+			"1410840974548_488"],
+	"program" : {
+		"titleup" : "摆古(重播)"
+	},
+	"cur_sid" : "5_1382412630274_1411638323711",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1382412630274.htm"
+}, {
+	"_id" : "5_1357279452800",
+	"cname" : "江苏靓妆频道",
+	"online" : 3,
+	"imageUrl" : "http://img4shaox0.m1ppcdn.kukuplay.com/data/5_1357279452800_1408444849892/snapshot-game.jpg",
+	"navType" : 312,
+	"channelTypes" : ["1410840974548_488_1411013535553_963",
+			"1410840974548_488"],
+	"cur_sid" : "5_1357279452800_1408444849892",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1357279452800.htm"
+}, {
+	"_id" : "5_1356080091131",
+	"cname" : "安徽经济生活",
+	"online" : 3,
+	"imageUrl" : "http://img6sy0.m0ppcdn.kukuplay.com/data/5_1356080091131_1434541381942/snapshot-game.jpg",
+	"navType" : 319,
+	"channelTypes" : ["1410840974548_488_1411013585794_70", "1410840974548_488"],
+	"program" : {
+		"titleup" : "健康行天下"
+	},
+	"cur_sid" : "5_1356080091131_1434541381942",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1356080091131.htm"
+}, {
+	"_id" : "5_1382411874814",
+	"cname" : "太原家庭消费",
+	"online" : 3,
+	"imageUrl" : "http://img3sr3.m3ppcdn.kukuplay.com/data/5_1382411874814_1417701893399/snapshot-game.jpg",
+	"navType" : 314,
+	"channelTypes" : ["1410840974548_488_1411013542465_140",
+			"1410840974548_488"],
+	"cur_sid" : "5_1382411874814_1417701893399",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1382411874814.htm"
+}, {
+	"_id" : "5_1357272879790",
+	"cname" : "石家庄生活频道",
+	"online" : 3,
+	"imageUrl" : "http://img7sr4.m3ppcdn.kukuplay.com/data/5_1357272879790_1417514537361/snapshot-game.jpg",
+	"navType" : 321,
+	"channelTypes" : ["1410840974548_488_1411013603995_537",
+			"1410840974548_488"],
+	"cur_sid" : "5_1357272879790_1417514537361",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1357272879790.htm"
+}, {
+	"_id" : "5_1387339040449",
+	"cname" : "新华中文",
+	"online" : 3,
+	"imageUrl" : "http://img4sy1.m0ppcdn.kukuplay.com/data/5_1387339040449_1458882550760/snapshot-game.jpg",
+	"navType" : 355,
+	"channelTypes" : ["1410840974548_488_1411013603995_537",
+			"1411013974063_723", "1419852190134_228", "1410840974548_488"],
+	"program" : {
+		"titleup" : "今日开庭"
+	},
+	"cur_sid" : "5_1387339040449_1458882550760",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1387339040449.htm"
+}, {
+	"_id" : "5_1370489375008",
+	"cname" : "义乌新闻综合",
+	"online" : 3,
+	"imageUrl" : "http://img5sr0.m3ppcdn.kukuplay.com/data/5_1370489375008_1456379238073/snapshot-game.jpg",
+	"navType" : 313,
+	"channelTypes" : ["1410840974548_488_1411013538809_850",
+			"1410840974548_488"],
+	"cur_sid" : "5_1370489375008_1456379238073",
+	"uid" : "5",
+	"pcStatus" : true,
+	"mobileStatus" : true,
+	"redirectUrl" : "http://www.fengyunzhibo.com/tv/5_1370489375008.htm"
+}]

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-5-17 16:45:35 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="cn.com.oa.birthdaybless_test.model.StudentTest" table="oa_student_test" >
+
+
+       		 <id name="id" type="java.lang.String">
+          	   	 <column name="id" length="50" />
+           		 <generator class="uuid.hex" />
+        	</id>
+
+	
+       		 <property name="name" type="java.lang.String">
+            		<column name="name" length="50"/>
+       		 </property>
+	
+       		 <property name="age" type="java.lang.Integer">
+            		<column name="age" length="10"/>
+       		 </property>
+	
+       		 <property name="createTime" type="java.util.Date">
+            		<column name="create_time" length="0"/>
+       		 </property>
+	
+       		 <property name="status" type="java.lang.Short">
+            		<column name="status" length="3"/>
+       		 </property>
+	
+       		 <property name="interesting" type="java.lang.String">
+            		<column name="interesting" length="255"/>
+       		 </property>
+	
+    </class>
+</hibernate-mapping> 

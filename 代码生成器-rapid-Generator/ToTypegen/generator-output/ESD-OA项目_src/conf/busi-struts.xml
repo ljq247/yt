@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 让其他文件导入这个模块 
+		
+		<include file="cn/com/oa/birthdaybless_test/conf/busi-struts.xml" />
+		
+	结束--> 
+	
+	<!-- -			模块名称						模块名称				 -->
+	<package name="birthdaybless_test" namespace="/birthdaybless_test" extends="base-default"> 	
+			<!-- /birthdaybless_test/temporaryPersonManger!showListBySerachMap.action     -->
+ 		 	<action name="temporaryPersonManger" class="cn.com.oa.birthdaybless_test.action.TemporaryPersonMangerAction">
+				
+				<result name="showListBySerachMap">/oa/jsp/birthdaybless_test/temporaryPersonManger/showListBySearchMap.jsp</result>
+				<result name="details">/oa/jsp/birthdaybless_test/temporaryPersonManger/details.jsp</result>		
+				<result name="editForCreate">/oa/jsp/birthdaybless_test/temporaryPersonManger/editForCreate.jsp</result>
+				<result name="editForUpdate">/oa/jsp/birthdaybless_test/temporaryPersonManger/editForUpdate.jsp</result>
+			</action>
+			<!-- /birthdaybless_test/studentTest!showListBySerachMap.action     -->
+ 		 	<action name="studentTest" class="cn.com.oa.birthdaybless_test.action.StudentTestAction">
+				
+				<result name="showListBySerachMap">/oa/jsp/birthdaybless_test/studentTest/showListBySearchMap.jsp</result>
+				<result name="details">/oa/jsp/birthdaybless_test/studentTest/details.jsp</result>		
+				<result name="editForCreate">/oa/jsp/birthdaybless_test/studentTest/editForCreate.jsp</result>
+				<result name="editForUpdate">/oa/jsp/birthdaybless_test/studentTest/editForUpdate.jsp</result>
+			</action>
+	
+	</package>
+</struts>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-5-17 16:45:35 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="cn.com.oa.birthdaybless_test.model.TemporaryPersonManger" table="oa_temporary_person_manger" >
+
+
+       		 <id name="id" type="java.lang.String">
+          	   	 <column name="id" length="32" />
+           		 <generator class="uuid.hex" />
+        	</id>
+
+	
+       		 <property name="birthday" type="java.lang.String">
+            		<column name="birthday" length="10"/>
+       		 </property>
+	
+       		 <property name="phone" type="java.lang.String">
+            		<column name="phone" length="255"/>
+       		 </property>
+	
+       		 <property name="organization" type="java.lang.String">
+            		<column name="organization" length="255"/>
+       		 </property>
+	
+       		 <property name="createTime" type="java.util.Date">
+            		<column name="create_time" length="0"/>
+       		 </property>
+	
+       		 <property name="name" type="java.lang.String">
+            		<column name="name" length="255"/>
+       		 </property>
+	
+    </class>
+</hibernate-mapping> 

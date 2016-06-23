@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 让其他文件导入这个模块 
+		
+		<include file="${basepackage_dir}/conf/busi-struts.xml" />
+		
+	结束--> 
+	
+	<!-- -			模块名称						模块名称				 -->
+	<package name="${modelname}" namespace="/${modelname}" extends="base-default"> 	
+	<#list tableList as t >
+			<!-- /${modelname}/${t.className?uncap_first}!showListBySerachMap.action     -->
+ 		 	<action name="${t.className?uncap_first}" class="${basepackage}.action.${t.className}Action">
+				
+				<result name="showListBySerachMap">/${namespace}/${t.className?uncap_first}/showListBySearchMap.jsp</result>
+				<result name="details">/${namespace}/${t.className?uncap_first}/details.jsp</result>		
+				<result name="editForCreate">/${namespace}/${t.className?uncap_first}/editForCreate.jsp</result>
+				<result name="editForUpdate">/${namespace}/${t.className?uncap_first}/editForUpdate.jsp</result>
+			</action>
+ 	</#list>
+	
+	</package>
+</struts>

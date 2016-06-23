@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-5-17 16:45:35 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="${basepackage}.model.${table.tableAlias}" table="${table.sqlName}" >
+
+<#list table.columns as c>
+	<#if c.sqlName ="id">
+
+       		 <id name="id" type="${c.javaType}">
+          	   	 <column name="id" length="${c.size}" />
+           		 <generator class="uuid.hex" />
+        	</id>
+
+	<#else>
+       		 <property name="${c.columnNameLower}" type="${c.javaType}">
+            		<column name="${c.sqlName}" length="${c.size}"/>
+       		 </property>
+	</#if>
+	
+</#list>
+    </class>
+</hibernate-mapping> 

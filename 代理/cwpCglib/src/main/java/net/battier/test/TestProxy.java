@@ -14,7 +14,10 @@ public class TestProxy {
         
 //        BookFacade_test bookProxy = (BookFacade_test) proxy.bind(new BookFacadeImpl());
 //        System.out.println("11");
+        
+      //  bookProxy	$Proxy0  (id=22)	
          bookProxy.addBook();  
+         System.out.println("end");
 
     }  
   

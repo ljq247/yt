@@ -1,6 +1,6 @@
 package testJDBC;
 
-
+//add commets by JiaqiangLI
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -25,18 +25,18 @@ public class MainMsql {
 	}//end main
 	
 	
-	static public void  fun4()throws Exception{  //  Õı³£µÄ²éÑ¯
-		 //1.¼ÓÔØÇı¶¯
+	static public void  fun4()throws Exception{  //  æ­£å¸¸çš„æŸ¥è¯¢
+		 //1.åŠ è½½é©±åŠ¨
       Class.forName("com.mysql.jdbc.Driver");
-      //2.Ê¹ÓÃDriverManager»ñÈ¡Êı¾İ¿âÁ¬½Ó
-      //ÆäÖĞ·µ»ØµÄConnection¾Í´ú±íÁËJava³ÌĞòºÍÊı¾İ¿âµÄÁ¬½Ó
+      //2.ä½¿ç”¨DriverManagerè·å–æ•°æ®åº“è¿æ¥
+      //å…¶ä¸­è¿”å›çš„Connectionå°±ä»£è¡¨äº†Javaç¨‹åºå’Œæ•°æ®åº“çš„è¿æ¥
       Connection conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test1","root","123456");
-      //3.Ê¹ÓÃConnectionÀ´´´½¨Ò»¸öStatement¶ÔÏó
+      //3.ä½¿ç”¨Connectionæ¥åˆ›å»ºä¸€ä¸ªStatementå¯¹è±¡
     //  Statement stmt=conn.createStatement( );
-      //4.Ö´ĞĞSQLÓï¾ä
+      //4.æ‰§è¡ŒSQLè¯­å¥
         //  
       Statement stmt=conn.createStatement( );
-      //4.Ö´ĞĞSQLÓï¾ä  	com.mysql.jdbc.StatementImpl@107f45d
+      //4.æ‰§è¡ŒSQLè¯­å¥  	com.mysql.jdbc.StatementImpl@107f45d
       String sql = "select  * from group_t where  name='j\\'ack'";
       ResultSet rs=stmt.executeQuery(sql);
    		   
@@ -51,15 +51,15 @@ public class MainMsql {
 		
 	}
 	
-	static public void  fun3()throws Exception{  // ²âÊÔ²éÑ¯sql×¢Èë
-		 //1.¼ÓÔØÇı¶¯
+	static public void  fun3()throws Exception{  // æµ‹è¯•æŸ¥è¯¢sqlæ³¨å…¥
+		 //1.åŠ è½½é©±åŠ¨
        Class.forName("com.mysql.jdbc.Driver");
-       //2.Ê¹ÓÃDriverManager»ñÈ¡Êı¾İ¿âÁ¬½Ó
-       //ÆäÖĞ·µ»ØµÄConnection¾Í´ú±íÁËJava³ÌĞòºÍÊı¾İ¿âµÄÁ¬½Ó
+       //2.ä½¿ç”¨DriverManagerè·å–æ•°æ®åº“è¿æ¥
+       //å…¶ä¸­è¿”å›çš„Connectionå°±ä»£è¡¨äº†Javaç¨‹åºå’Œæ•°æ®åº“çš„è¿æ¥
        Connection conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test1","root","123456");
-       //3.Ê¹ÓÃConnectionÀ´´´½¨Ò»¸öStatement¶ÔÏó
+       //3.ä½¿ç”¨Connectionæ¥åˆ›å»ºä¸€ä¸ªStatementå¯¹è±¡
      //  Statement stmt=conn.createStatement( );
-       //4.Ö´ĞĞSQLÓï¾ä
+       //4.æ‰§è¡ŒSQLè¯­å¥
          //  
        A a=new A();
        String sql = "select * from group_t where  name=?";
@@ -82,14 +82,14 @@ public class MainMsql {
 	
 	static public void  fun2()throws Exception{
 		
-       //1.¼ÓÔØÇı¶¯
+       //1.åŠ è½½é©±åŠ¨
        Class.forName("com.mysql.jdbc.Driver");
-       //2.Ê¹ÓÃDriverManager»ñÈ¡Êı¾İ¿âÁ¬½Ó
-       //ÆäÖĞ·µ»ØµÄConnection¾Í´ú±íÁËJava³ÌĞòºÍÊı¾İ¿âµÄÁ¬½Ó
+       //2.ä½¿ç”¨DriverManagerè·å–æ•°æ®åº“è¿æ¥
+       //å…¶ä¸­è¿”å›çš„Connectionå°±ä»£è¡¨äº†Javaç¨‹åºå’Œæ•°æ®åº“çš„è¿æ¥
        Connection conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test1","root","123456");
-       //3.Ê¹ÓÃConnectionÀ´´´½¨Ò»¸öStatement¶ÔÏó
+       //3.ä½¿ç”¨Connectionæ¥åˆ›å»ºä¸€ä¸ªStatementå¯¹è±¡
      //  Statement stmt=conn.createStatement( );
-       //4.Ö´ĞĞSQLÓï¾ä
+       //4.æ‰§è¡ŒSQLè¯­å¥
          //  
        String sql = "select * from group_t where  id=?  and  test_decimal=?  and  test_datetime=? and test_timestamp=?" ;
        PreparedStatement ps = conn.prepareStatement(sql);
@@ -118,53 +118,53 @@ public class MainMsql {
 		System.out.println( "hell o");
 		
 		
-       //1.¼ÓÔØÇı¶¯
+       //1.åŠ è½½é©±åŠ¨
        Class.forName("com.mysql.jdbc.Driver");
-       //2.Ê¹ÓÃDriverManager»ñÈ¡Êı¾İ¿âÁ¬½Ó
-       //ÆäÖĞ·µ»ØµÄConnection¾Í´ú±íÁËJava³ÌĞòºÍÊı¾İ¿âµÄÁ¬½Ó
+       //2.ä½¿ç”¨DriverManagerè·å–æ•°æ®åº“è¿æ¥
+       //å…¶ä¸­è¿”å›çš„Connectionå°±ä»£è¡¨äº†Javaç¨‹åºå’Œæ•°æ®åº“çš„è¿æ¥
        Connection conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test1","root","123456");
-       //3.Ê¹ÓÃConnectionÀ´´´½¨Ò»¸öStatement¶ÔÏó
+       //3.ä½¿ç”¨Connectionæ¥åˆ›å»ºä¸€ä¸ªStatementå¯¹è±¡
        Statement stmt=conn.createStatement( );
-       //4.Ö´ĞĞSQLÓï¾ä
+       //4.æ‰§è¡ŒSQLè¯­å¥
        ResultSet rs=stmt.executeQuery("select  * from group_t");
-       //ResultSetÓĞÏµÁĞµÄgetXxx(ÁĞË÷Òı|ÁĞÃû)£¬ÓÃÓÚ»ñÈ¡¼ÇÂ¼Ö¸ÕëÖ¸ÏòĞĞÌØ¶¨ÁĞµÄÖµ
-       //²»¶ÏÊ¹ÓÃnext½«¼ÇÂ¼Ö¸ÕëÒÆ¶¯Ò»ĞĞ£¬Èç¹ûÒÀÈ»Ö¸ÏòÓĞĞ§ĞĞ£¬ÔòÖ¸ÕëÖ¸Ïò¸ÃĞĞ¼ÇÂ¼
+       //ResultSetæœ‰ç³»åˆ—çš„getXxx(åˆ—ç´¢å¼•|åˆ—å)ï¼Œç”¨äºè·å–è®°å½•æŒ‡é’ˆæŒ‡å‘è¡Œç‰¹å®šåˆ—çš„å€¼
+       //ä¸æ–­ä½¿ç”¨nextå°†è®°å½•æŒ‡é’ˆç§»åŠ¨ä¸€è¡Œï¼Œå¦‚æœä¾ç„¶æŒ‡å‘æœ‰æ•ˆè¡Œï¼Œåˆ™æŒ‡é’ˆæŒ‡å‘è¯¥è¡Œè®°å½•
        
        ResultSetMetaData rsmd  = rs.getMetaData();
        Integer columnCount= rsmd.getColumnCount();
        
        for(int i=1;i<=rsmd.getColumnCount();i++){
        	System.out.println("columnname:"+rsmd.getColumnName(i)	+
-       			"  --ÀàĞÍÊÇ: "+rsmd.getColumnType(i)  +
-       			"--ÀàĞÍÃû³Æ:"+rsmd.getColumnTypeName(i)+
-       			"--³¤¶È:"+rsmd.getColumnDisplaySize(i)+
+       			"  --ç±»å‹æ˜¯: "+rsmd.getColumnType(i)  +
+       			"--ç±»å‹åç§°:"+rsmd.getColumnTypeName(i)+
+       			"--é•¿åº¦:"+rsmd.getColumnDisplaySize(i)+
        			"--cloumnLab:"+rsmd.getColumnLabel(i)
        			
        			
        			);
        }  
-       System.out.println("±íµÄËùÓĞÁĞ:"+ rsmd.getColumnCount()); 
-       System.out.println("Í¨¹ıĞòºÅ»ñÈ¡Êı¾İ---------|");
+       System.out.println("è¡¨çš„æ‰€æœ‰åˆ—:"+ rsmd.getColumnCount()); 
+       System.out.println("é€šè¿‡åºå·è·å–æ•°æ®---------|");
        while(rs.next())
        {
-       	System.out.print("ĞòºÅ»ñÈ¡µÄÊı¾İ--Õâ´ÜÊı¾İÎª:");
+       	System.out.print("åºå·è·å–çš„æ•°æ®--è¿™çªœæ•°æ®ä¸º:");
        	for(int i=1;i<=columnCount;i++){
        		System.out.print(rs.getString(i)+"|--|");
        	}
-       	System.out.println("");//»Ø³µ
+       	System.out.println("");//å›è½¦
        	
        	
-       	System.out.print("ÀàÃû»ñÈ¡µÄÊı¾İ-");
+       	System.out.print("ç±»åè·å–çš„æ•°æ®-");
            for(int i=1;i<=columnCount;i++){
            	System.out.print(  "|--|" + rsmd.getColumnName(i)   +":"+ rs.getString(  rsmd.getColumnName(i) )  );
            
            } 
-           System.out.println("");//»Ø³µ
+           System.out.println("");//å›è½¦
        	
          //  System.out.println(rs.getd);
        }
 	
-         System.out.println("Ê±¼ä:"+rs.getDate("test_datetime"));  ;
+         System.out.println("æ—¶é—´:"+rs.getDate("test_datetime"));  ;
  }//end fun1
 	
 
